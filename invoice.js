@@ -261,7 +261,7 @@ function printInvoice(){
                             ).join("")}
                         </tbody>
                     </table>
-                    <p class="total">Total Amount = ${totalAmount}</p>
+                    <p class="total">Total Amount = $${totalAmount}</p>
                 </body>
             </html>
         `;
