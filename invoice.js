@@ -18,24 +18,18 @@ function addInvoiceItem() {
                     </option>
                 <optgroup label="Amplifier">
                     <option>
-                        <p>Amplifier 2-channel (New)
-                        <br>
-                        1 year warranty</p>
+                        Amplifier 2-channel (New)
                     </option>
                     <option>
-                        <p>Amplifier 4-channel (New)
-                        <br>
-                        1 year warranty</p>
+                        Amplifier 4-channel (New)
                     </option>
                     <option>
-                        <p>Amplifier 2-channel (2nd hand)
-                        <br>
-                        No warranty</p>
+                        Amplifier 2-channel (2nd hand)
+                        No warranty
                     </option>
                     <option>
-                        <p>Amplifier 4-channel (2nd hand)
-                        <br>
-                        No warranty</p>
+                        Amplifier 4-channel (2nd hand)
+                        No warranty
                     </option>
                 </optgroup>
                 <optgroup label="RCA Cable">
