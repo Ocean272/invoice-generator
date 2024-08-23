@@ -5,8 +5,40 @@ function addInvoiceItem() {
 
     const newItemRow = `
     <tr id="itemRow${itemCounter}">
-        <td><input type="text" class="form-control description"
-        placeholder="Enter Description" required></td>
+        <td>
+            <select>
+                <option value="">
+                        
+                    </option>
+                <option value="Installation / Dismantle">
+                        Installation / Dismantle
+                    </option>
+                <option value="Troubleshooting">
+                        Troubleshooting
+                    </option>
+                <option value="Amplifier">
+                        Amplifier
+                    </option>
+                <option value="Speakers">
+                        Speakers
+                    </option>
+                <option value="Subwoofer">
+                        Subwoofer
+                    </option>
+                <option value="DSP">
+                        DSP
+                    </option>
+                <option value="Headunit">
+                        Headunit
+                    </option>
+                <option value="Camera">
+                        Camera
+                    </option>
+                <option value="Accessories">
+                        Accessories
+                    </option>
+            </select>
+        </td>
         <td><input type="number" class="form-control quantity"
         placeholder="Enter Quantity" required></td>
         <td><input type="number" class="form-control unitPrice"
@@ -17,6 +49,7 @@ function addInvoiceItem() {
         onclick="removeInvoiceItem(${itemCounter})">Remove
         </button></td>
     `;
+
 
     $("#invoiceItems").append(newItemRow);
 
@@ -64,7 +97,7 @@ function printInvoice(){
     const items = [];
 
     $("tr[id^='itemRow']").each(function(){
-        const description = $(this).find("td:eq(0) input").val();
+        const description = $(this).find("td:eq(0) select").val();
         const quantity = $(this).find("td:eq(1) input").val();
         const unitPrice = $(this).find("td:eq(2) input").val();
         const totalItemPrice = $(this).find("td:eq(3) input").val();
