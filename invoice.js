@@ -16,27 +16,125 @@ function addInvoiceItem() {
                 <option value="Troubleshooting">
                         Troubleshooting
                     </option>
-                <option value="Amplifier">
-                        Amplifier
+                <optgroup label="Amplifier">
+                    <option>
+                        <p>Amplifier 2-channel (New)
+                        <br>
+                        1 year warranty</p>
                     </option>
-                <option value="Speakers">
-                        Speakers
+                    <option>
+                        <p>Amplifier 4-channel (New)
+                        <br>
+                        1 year warranty</p>
                     </option>
-                <option value="Subwoofer">
-                        Subwoofer
+                    <option>
+                        <p>Amplifier 2-channel (2nd hand)
+                        <br>
+                        No warranty</p>
                     </option>
-                <option value="DSP">
-                        DSP
+                    <option>
+                        <p>Amplifier 4-channel (2nd hand)
+                        <br>
+                        No warranty</p>
                     </option>
-                <option value="Headunit">
-                        Headunit
+                </optgroup>
+                <optgroup label="RCA Cable">
+                    <option>
+                        RCA Hi-Lo Adaptor
                     </option>
-                <option value="Camera">
-                        Camera
+                    <option>
+                        RCA 5 metres
                     </option>
-                <option value="Accessories">
-                        Accessories
+                    <option>
+                        RCA 3 metres
+                    <option>
+                        RCA 2 metres
                     </option>
+                    <option>
+                        RCA 1 metre
+                    </option>
+                    <option>
+                        Speaker cable / Power cable / circuit breaker (1 lot)
+                    </option>
+                </optgroup>
+                <optgroup label="Speakers">
+                    <option>
+                        Component Speakers                        
+                    </option>
+                    <option>
+                        Coaxial Speakers
+                    </option>
+                </optgroup>
+                <optgroup label="Subwoofer">
+                    <option>
+                        Active subwoofer                        
+                    </option>
+                    <option>
+                        Passive subwoofer 10"
+                    </option>
+                    <option>
+                        Passive subwoofer 12"
+                    </option>
+                </optgroup>
+                <optgroup label="DSP">
+                    <option>
+                        DSP (GroudZero)                      
+                    </option>
+                    <option>
+                        DSP (Machtig)                      
+                    </option>
+                    <option>
+                        DSP (Others)                      
+                    </option>
+                </optgroup>
+                <optgroup label="Headunit">
+                    <option>
+                        Headunit (Pioneer)                      
+                    </option>
+                    <option>
+                        Headunit (Android)                      
+                    </option>
+                    <option>
+                        Headunit (Others)                      
+                    </option>
+                    <option>
+                        Headunit (2nd hand)                      
+                    </option>
+                </optgroup>
+                <optgroup label="Dashcam Recorder / Reverse Camera">
+                    <option>
+                        Reverse Camera                      
+                    </option>
+                    <option>
+                        Dashcam Recorder 2-channel (Deepfly)                     
+                    </option>
+                    <option>
+                        Dashcam Recorder 2-channel (BlackVue)                     
+                    </option>
+                    <option>
+                        Dashcam Recorder 2-channel (IRoad)                     
+                    </option>
+                    <option>
+                        Dashcam Recorder 1-channel (Deepfly)                     
+                    </option>
+                    <option>
+                        Dashcam Recorder 1-channel (BlackVue)                     
+                    </option>
+                    <option>
+                        Dashcam Recorder 1-channel (IRoad)                     
+                    </option>
+                </optgroup>
+                <optgroup label="Accessories">
+                    <option>
+                        Sound Proofing                    
+                    </option>
+                    <option>
+                        LEDs                    
+                    </option>
+                    <option>
+                        Miscellenous                    
+                    </option>
+                </optgroup>
             </select>
         </td>
         <td><input type="number" class="form-control quantity"
