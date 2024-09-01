@@ -186,6 +186,7 @@ $('#invoiceForm').submit(function (event){
 function printInvoice(){
     const customerName = $("#customerName").val();
     const invoiceDate = $("#invoiceDate").val();
+    const csVoucher = $("#csVoucher").val();
     const items = [];
 
     $("tr[id^='itemRow']").each(function(){
@@ -238,6 +239,7 @@ function printInvoice(){
                 </head>
                 <body>
                     <h2>Invoice Slip</h2>
+                    <p><strong>CS No: </strong>${csVoucher}</p>
                     <p><strong>Vehicle No: </strong>${customerName}</p>
                     <p><strong>Date and Time: </strong>${invoiceDate}</p>
                     <table>
